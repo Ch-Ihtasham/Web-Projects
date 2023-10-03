@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     color: #808080;
-    padding: 8px 0px;
+    padding: 6px 0px;
+    font-size: 13px;
 
     .flex {
         display: flex;
@@ -112,7 +113,7 @@
     transform: translate(-50%, -50%);
     width: 90%;
     background-color: white;
-    box-shadow: 1px 1px 4px 2px whitesmoke;
+    box-shadow: 5px 5px 6px whitesmoke;
     height: 190px;
 
 
@@ -292,12 +293,406 @@
         }
     }
 }
-.sheer{
+
+.sheer {
     width: 100%;
     background-color: #F8F8F8;
 }
-.sub-sheer{
+
+.sub-sheer {
     width: 90%;
     margin: auto;
-  
+
+    & h4 {
+        color: #0a4385;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .sheer-flex {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+
+        & h3 {
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        & p {
+            color: #808080;
+        }
+
+
+
+    }
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+    .sub-box {
+        background-color: white;
+        box-shadow: 1px 1px 10px rgb(160, 159, 159);
+        padding: 35px;
+        height: 350px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+
+        .no {
+            float: right;
+            font-size: 25px;
+            font-weight: 900;
+            color: #808080;
+        }
+
+        .ico {
+            margin-top: 40px;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        & p {
+            color: #808080;
+        }
+
+        .fa-comments {
+            color: #FD6A12;
+        }
+
+        .fa-book-open-reader {
+            color: #F1137B;
+        }
+
+        .fa-bullseye {
+            color: #11D5E6;
+        }
+
+        .fa-headphones-simple {
+            color: #7AEDD1;
+        }
+
+        .fa-plane-departure {
+            color: #780FDA;
+        }
+
+        .fa-plane-arrival {
+            color: #189FFD;
+        }
+
+        .fa-plane-circle-check {
+            color: black;
+        }
+
+        .fa-coins {
+            color: #F1137B;
+        }
+
+        .fa-language {
+            color: #11D5E6;
+        }
+
+
+
+
+    }
+}
+
+.b1:hover {
+    background-color: #FD6A12;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b2:hover {
+    background-color: #F1137B;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b3:hover {
+    background-color: #11D5E6;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b4:hover {
+    background-color: #7AEDD1;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b5:hover {
+    background-color: #780FDA;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b6:hover {
+    background-color: #189FFD;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b7:hover {
+    background-color: #FD6A12;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b8:hover {
+    background-color: #F1137B;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+}
+
+.b9:hover {
+    background-color: #11D5E6;
+
+    & p {
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+    }
+
+    & h4 {
+        color: white;
+    }
+
+}
+
+.FAVOURITE {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+
+    & h4 {
+        padding-top: 20px;
+        color: #0a4385;
+        font-weight: 600;
+    }
+
+    & p {
+        color: #808080;
+        margin-top: 45px;
+    }
+
+    & h1 {
+        font-weight: 600;
+    }
+}
+
+.main-coun {
+    width: 90%;
+    margin: auto;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    & img {
+        width: 350px;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .span-coun {
+        position: relative;
+
+        & span {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            text-shadow: 2px 2px 2px black;
+
+        }
+    }
+}
+
+.main-course {
+    width: 100%;
+    background-color: #F8F8F8;
+
+    .courses {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+
+        & h4 {
+            padding-top: 40px;
+            color: #0a4385;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        & h1 {
+            font-weight: 600;
+        }
+    }
+}
+
+.main-digi {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .digital {
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgb(181, 180, 180);
+        height: 420px;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+
+        & p {
+
+            color: #808080;
+        }
+
+
+        & h3 {
+            margin-top: 10px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        .course-pic {
+            height: 170px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .tutor {
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .felx {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+
+
+            .tut {
+                border: 1px solid black;
+                padding: 7px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                & span {
+                    font-size: 13px;
+                    color: #5b5a5a;
+                }
+            }
+        }
+    }
+
+    .di {
+        color: #0a4385;
+        background-color: #bcd1e8;
+        display: inline;
+        padding: 3px;
+        border-radius: 5px;
+
+    }
+}
+.book{
+    color: #808080;
 }
