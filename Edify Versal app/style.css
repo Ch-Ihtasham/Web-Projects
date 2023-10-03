@@ -48,6 +48,7 @@
         display: inline-block;
         margin-left: 15px;
         cursor: pointer;
+        
 
         & button {
             background-color: #1456A3;
@@ -58,6 +59,12 @@
             cursor: pointer;
         }
     }
+}
+.navs ul li:hover{
+    color: #1456A3;
+}
+.active{
+    color: #0a4385;
 }
 
 .main {
@@ -344,9 +351,9 @@
 
         .no {
             float: right;
-            font-size: 25px;
+            font-size: 35px;
             font-weight: 900;
-            color: #808080;
+            color: #0a4385;
         }
 
         .ico {
