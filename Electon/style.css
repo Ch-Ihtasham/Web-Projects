@@ -2380,19 +2380,26 @@
         grid-template-columns: 1fr;
         width: 96%;
         margin: 0px auto;
-        height: 880px;
+        height: 900px;
+        overflow: hidden;
 
         .frame1 {
             border-radius: 10px;
 
             .mini {
                 display: grid;
-                grid-template-columns: 210px 165px;
+                grid-template-columns: 223px 165px;
 
                 .frm1 {
                     & img {
                         height: 230px;
                     }
+                    .sp9{
+                        margin-left: -35px;
+                    }
+                }
+                #txt1{
+                    margin-left: -40px;
                 }
 
 
@@ -2401,8 +2408,8 @@
 
         .frame2 {
 
-            grid-template-rows: 210px 210px;
-            gap: 20px;
+            grid-template-rows: 220px 220px;
+            gap: 10px;
 
             .rect1 {
                 width: 375px;
@@ -2443,7 +2450,7 @@
     }
 
     .main8 {
-        height: 575px;
+        height: 645px;
         width: 97%;
 
         .rectangle8 {
@@ -2571,6 +2578,7 @@
             }
     
             .mail {
+                overflow: hidden;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
