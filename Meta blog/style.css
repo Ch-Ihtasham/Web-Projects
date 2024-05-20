@@ -3,7 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+
 
 }
 
@@ -11,6 +11,8 @@
 
     width: 80%;
     margin: 20px auto;
+    overflow: hidden;
+    position: relative;
   
     
 
@@ -22,7 +24,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        overflow: hidden;
+        z-index: 999;
+      
 
     }
 
@@ -265,7 +268,7 @@
     background-color: white;
     border-radius: 5px;
     padding: 30px;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .s-btn {
@@ -277,6 +280,7 @@
     height: 35px;
     width: 230px;
     cursor: pointer;
+    margin-top: 10px;
 
 
 }
